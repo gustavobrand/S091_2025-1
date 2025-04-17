@@ -27,18 +27,9 @@ public abstract class Usuario implements CalculoSalarioUsuario {
 		this.nome = nome;
 	}
 
-	public CalculoSalarioUsuario getCalculoSalarioUsuario() {
-		return calculoSalarioUsuario;
-	}
-
-	public void setCalculoSalarioUsuario(CalculoSalarioUsuario calculoSalarioUsuario) {
-		this.calculoSalarioUsuario = calculoSalarioUsuario;
-	}
-
 	@Override
 	public String toString() {
-		return "Usuario [salario=" + salario + ", nome=" + nome + ", calculoSalarioUsuario=" + calculoSalarioUsuario
-				+ "]";
+		return "Usuario [salario=" + salario + ", nome=" + nome + "]";
 	}
 	
 }
